@@ -14,4 +14,4 @@ def main():
     if st.button("Generate Audio"):
         audio_path = text_to_audio(text)
         st.audio(audio_path, format="audio/mp3")
-        st.download_button("Download Audio", audio_path, file_name="output.mp3")
+        #st.download_button("Download Audio", audio_path, file_name="output.mp3")
